@@ -1,0 +1,240 @@
+{
+  "date": "2024-04-29T16:24:13.004Z",
+  "argv": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\ATcpy\\task-manager\\test\\server.test.js"
+  ],
+  "execArgv": [
+    "--import=file:///C:/ATcpy/task-manager/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "--import=file:///C:/ATcpy/task-manager/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///C:/ATcpy/task-manager/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"\" \"--require\" \"c:/Users/hp/AppData/Local/Programs/Microsoft VS Code/resources/app/extensions/ms-vscode.js-debug/src/bootloader.js\" \"\" \"--inspect-publish-uid=http\" \"--import=file:///C:/ATcpy/task-manager/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "C:\\ATcpy\\task-manager",
+  "pid": 24128,
+  "ppid": 26392,
+  "parent": null,
+  "uuid": "4939de02-88f6-483d-80d9-08ce7d82d9b8",
+  "files": [
+    "C:\\ATcpy\\task-manager\\test\\server.test.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@isaacs\\ts-node-temp-fork-for-pr-2009\\import.mjs",
+    "C:\\ATcpy\\task-manager\\node_modules\\@isaacs\\ts-node-temp-fork-for-pr-2009\\import-loader.mjs",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\import.mjs",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\is-relative-require.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\export-line.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\munge-mocks.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\resolve-mock-entry-point.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\service-key.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\call-site-like.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\require-resolve.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-all-conditional-values.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-all-conditions.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-unique-condition-sets.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-all-exports.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-all-local-imports.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-conditional-value.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-import.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\is-windows.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\parse.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-conditional-values-list.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\errors.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-named-exports-list.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\read-pkg.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-export.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\star-glob.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\to-path.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\file-exists.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\find-dep-package.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\to-file-url.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-dependency-export.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-package-import.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\read-json.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\find-star-match.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\walk-up-path\\dist\\mjs\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\glob.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\has-magic.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\assert-valid-pattern.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\ast.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\escape.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\unescape.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\pattern.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\path-scurry\\dist\\mjs\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\walker.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\brace-expressions.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\minipass\\dist\\esm\\index.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\ignore.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\processor.js",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\loader.mjs",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\hooks.mjs",
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service-client.js",
+    "C:\\ATcpy\\task-manager\\app.js",
+    "C:\\ATcpy\\task-manager\\helper\\validator.js"
+  ],
+  "sources": {
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\import.mjs": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\src\\import.mts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\mock-service.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\src\\mock-service.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\is-relative-require.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\is-relative-require.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\export-line.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\src\\export-line.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\munge-mocks.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\src\\munge-mocks.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\resolve-mock-entry-point.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\src\\resolve-mock-entry-point.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\dist\\esm\\service-key.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\mock\\src\\service-key.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\call-site-like.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\src\\call-site-like.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\require-resolve.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\src\\require-resolve.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-all-conditional-values.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\get-all-conditional-values.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-all-conditions.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\get-all-conditions.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-unique-condition-sets.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\get-unique-condition-sets.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-all-exports.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\resolve-all-exports.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-all-local-imports.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\resolve-all-local-imports.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-conditional-value.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\resolve-conditional-value.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-import.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\resolve-import.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\is-windows.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\is-windows.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\dist\\esm\\parse.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\@tapjs\\stack\\src\\parse.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-conditional-values-list.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\get-conditional-values-list.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\errors.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\errors.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\get-named-exports-list.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\get-named-exports-list.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\read-pkg.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\read-pkg.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-export.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\resolve-export.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\star-glob.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\star-glob.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\to-path.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\to-path.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\file-exists.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\file-exists.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\find-dep-package.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\find-dep-package.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\to-file-url.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\to-file-url.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-dependency-export.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\resolve-dependency-export.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\resolve-package-import.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\resolve-package-import.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\read-json.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\read-json.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\dist\\esm\\find-star-match.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\resolve-import\\src\\find-star-match.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\glob\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\walk-up-path\\dist\\mjs\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\walk-up-path\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\glob.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\glob\\src\\glob.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\has-magic.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\glob\\src\\has-magic.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\assert-valid-pattern.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\src\\assert-valid-pattern.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\ast.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\src\\ast.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\escape.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\src\\escape.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\unescape.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\src\\unescape.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\pattern.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\glob\\src\\pattern.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\path-scurry\\dist\\mjs\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\path-scurry\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\walker.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\glob\\src\\walker.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\dist\\mjs\\brace-expressions.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\minimatch\\src\\brace-expressions.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\path-scurry\\node_modules\\lru-cache\\dist\\esm\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\path-scurry\\node_modules\\lru-cache\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\minipass\\dist\\esm\\index.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\minipass\\src\\index.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\ignore.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\glob\\src\\ignore.ts"
+    ],
+    "C:\\ATcpy\\task-manager\\node_modules\\glob\\dist\\esm\\processor.js": [
+      "C:\\ATcpy\\task-manager\\node_modules\\glob\\src\\processor.ts"
+    ]
+  },
+  "root": "4939de02-88f6-483d-80d9-08ce7d82d9b8",
+  "externalID": "test/server.test.js",
+  "code": 0,
+  "signal": null,
+  "runtime": 20009.6357
+}

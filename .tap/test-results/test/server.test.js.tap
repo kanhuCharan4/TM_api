@@ -1,0 +1,283 @@
+TAP version 14
+Server is listening on 3000
+{
+  title: [32m'New Task'[39m,
+  description: [32m'New Task Description'[39m,
+  completed: [33mfalse[39m
+}
+# Subtest: POST /tasks
+    ok 1 - should be equal
+    1..1
+ok 1 - POST /tasks # time=15799.657ms
+
+{ title: [32m'New Task'[39m }
+# Subtest: POST /tasks with invalid data
+    ok 1 - should be equal
+    1..1
+ok 2 - POST /tasks with invalid data # time=23.951ms
+
+# Subtest: GET /tasks
+    ok 1 - should be equal
+    ok 2 - specified property should be defined own property
+    ok 3 - specified property should be defined own property
+    ok 4 - specified property should be defined own property
+    ok 5 - specified property should be defined own property
+    ok 6 - type is number
+    ok 7 - type is string
+    ok 8 - type is string
+    ok 9 - type is boolean
+    1..9
+ok 3 - GET /tasks # time=29.381ms
+
+# Subtest: GET /tasks/:id
+    not ok 1 - should be equal
+      ---
+      compare: ===
+      at:
+        fileName: test\server.test.js
+        lineNumber: 43
+        columnNumber: 5
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/server.test.js:43:5)
+      source: "tap.test(\"GET /tasks/:id\", async (t) => {\r
+      
+        \  const response = await server.get(\"/tasks/1\");\r
+      
+        \  t.equal(response.status, 200);\r
+      
+        ----^
+      
+        \  const expectedTask = {\r
+      
+        \    id: 1,\n"
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -200
+        +404
+      ...
+    
+    not ok 2 - should match pattern
+      ---
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,6 +1,2 @@
+         Object {
+        -  "id": 1,
+        -  "title": "Set up environment",
+        -  "description": "Install Node.js, npm, and git",
+        -  "completed": true,
+         }
+      at:
+        fileName: test\server.test.js
+        lineNumber: 50
+        columnNumber: 5
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/server.test.js:50:5)
+      source: "    completed: true,\r
+      
+        \  };\r
+      
+        \  t.match(response.body, expectedTask);\r
+      
+        ----^
+      
+        \  t.end();\r
+      
+        });\n"
+      ...
+    
+    1..2
+not ok 4 - GET /tasks/:id # time=98.124ms
+  ---
+  at:
+    fileName: test\server.test.js
+    lineNumber: 41
+    columnNumber: 5
+    typeName: Object
+  source: "});\r
+  
+    \r
+  
+    tap.test(\"GET /tasks/:id\", async (t) => {\r
+  
+    ----^
+  
+    \  const response = await server.get(\"/tasks/1\");\r
+  
+    \  t.equal(response.status, 200);\n"
+  ...
+
+# Subtest: GET /tasks/:id with invalid id
+    ok 1 - should be equal
+    1..1
+ok 5 - GET /tasks/:id with invalid id # time=10.845ms
+
+# Subtest: PUT /tasks/:id
+    not ok 1 - should be equal
+      ---
+      compare: ===
+      at:
+        fileName: test\server.test.js
+        lineNumber: 67
+        columnNumber: 5
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/server.test.js:67:5)
+      source: "  };\r
+      
+        \  const response = await server.put(\"/tasks/1\").send(updatedTask);\r
+      
+        \  t.equal(response.status, 200);\r
+      
+        ----^
+      
+        \  t.end();\r
+      
+        });\n"
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -200
+        +404
+      ...
+    
+    1..1
+not ok 6 - PUT /tasks/:id # time=21.789ms
+  ---
+  at:
+    fileName: test\server.test.js
+    lineNumber: 60
+    columnNumber: 5
+    typeName: Object
+  source: "});\r
+  
+    \r
+  
+    tap.test(\"PUT /tasks/:id\", async (t) => {\r
+  
+    ----^
+  
+    \  const updatedTask = {\r
+  
+    \    title: \"Updated Task\",\n"
+  ...
+
+# Subtest: PUT /tasks/:id with invalid id
+    ok 1 - should be equal
+    1..1
+ok 7 - PUT /tasks/:id with invalid id # time=12.528ms
+
+# Subtest: PUT /tasks/:id with invalid data
+    not ok 1 - should be equal
+      ---
+      compare: ===
+      at:
+        fileName: test\server.test.js
+        lineNumber: 89
+        columnNumber: 5
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/server.test.js:89:5)
+      source: "  };\r
+      
+        \  const response = await server.put(\"/tasks/1\").send(updatedTask);\r
+      
+        \  t.equal(response.status, 400);\r
+      
+        ----^
+      
+        \  t.end();\r
+      
+        });\n"
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -400
+        +404
+      ...
+    
+    1..1
+not ok 8 - PUT /tasks/:id with invalid data # time=18.12ms
+  ---
+  at:
+    fileName: test\server.test.js
+    lineNumber: 82
+    columnNumber: 5
+    typeName: Object
+  source: "});\r
+  
+    \r
+  
+    tap.test(\"PUT /tasks/:id with invalid data\", async (t) => {\r
+  
+    ----^
+  
+    \  const updatedTask = {\r
+  
+    \    title: \"Updated Task\",\n"
+  ...
+
+# Subtest: DELETE /tasks/:id
+    not ok 1 - should be equal
+      ---
+      compare: ===
+      at:
+        fileName: test\server.test.js
+        lineNumber: 95
+        columnNumber: 5
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/server.test.js:95:5)
+      source: "tap.test(\"DELETE /tasks/:id\", async (t) => {\r
+      
+        \  const response = await server.delete(\"/tasks/1\");\r
+      
+        \  t.equal(response.status, 200);\r
+      
+        ----^
+      
+        \  t.end();\r
+      
+        });\n"
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -200
+        +404
+      ...
+    
+    1..1
+not ok 9 - DELETE /tasks/:id # time=37.648ms
+  ---
+  at:
+    fileName: test\server.test.js
+    lineNumber: 93
+    columnNumber: 5
+    typeName: Object
+  source: "});\r
+  
+    \r
+  
+    tap.test(\"DELETE /tasks/:id\", async (t) => {\r
+  
+    ----^
+  
+    \  const response = await server.delete(\"/tasks/1\");\r
+  
+    \  t.equal(response.status, 200);\n"
+  ...
+
+# Subtest: DELETE /tasks/:id with invalid id
+    ok 1 - should be equal
+    1..1
+ok 10 - DELETE /tasks/:id with invalid id # time=17.783ms
+
+1..10
